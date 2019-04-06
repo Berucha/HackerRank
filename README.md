@@ -2,6 +2,7 @@
 #https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 
 #PROBLEM
+
 John works at a clothing store. He has a large pile of socks that he must pair by color for sale. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
 
 For example, there are n = 7 socks with colors ar = [1,2,1,2,1,3,2]. There is one pair of color 1 and one of color 2. There are three odd socks left, one of each color. The number of pairs is 2.
@@ -21,6 +22,7 @@ The first line contains an integer , the number of socks represented in .
 The second line contains  space-separated integers describing the colors ar[i] of the socks in the pile.
 
 #Constraints
+
 1 less than or equal to n which is less than or equal to 100
 1 is less than or equal to ar[1] which is less than or equal to 100 where 0 is less than or equal to i which is less than n
 
@@ -29,7 +31,9 @@ The second line contains  space-separated integers describing the colors ar[i] o
 Return the total number of matching pairs of socks that John can sell.
 
 #Sample Input
+
 9
+
 10 20 20 10 10 30 50 10 20 
  
 #Sample Output
