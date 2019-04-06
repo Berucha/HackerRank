@@ -14,16 +14,19 @@ Complete the sockMerchant function in the editor below. It must return an intege
 sockMerchant has the following parameter(s):
 
 n: the number of socks in the pile
+
 ar: the colors of each sock
 
 #Input Format
 
-The first line contains an integer , the number of socks represented in . 
+The first line contains an integer n, the number of socks represented in ar. 
+
 The second line contains  space-separated integers describing the colors ar[i] of the socks in the pile.
 
 #Constraints
 
 1 less than or equal to n which is less than or equal to 100
+
 1 is less than or equal to ar[1] which is less than or equal to 100 where 0 is less than or equal to i which is less than n
 
 #Output Format
@@ -37,4 +40,5 @@ Return the total number of matching pairs of socks that John can sell.
 10 20 20 10 10 30 50 10 20 
  
 #Sample Output
+
 3
